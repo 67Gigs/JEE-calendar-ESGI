@@ -19,7 +19,7 @@ import java.util.List;
 public class Utilisateur {
 
     @ReadOnlyProperty
-    private final int NB_POINTS_INITIAL = 500;
+    private static final int NB_POINTS_INITIAL = 500;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
